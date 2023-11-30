@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Playfair Display', serif;
+}
+
+h6 {
+    line-height: 46px;
+}
+
+p {
+    line-height: 26px;
+}
+
+#annoucement {
+    padding: 10px 0px;
+    background-color: #98a88d;
+    color: #ffff;
+}
+
+.navbar {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+@media (max-width:769px){
+    .left{
+        display: none;
+    }
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.left ul li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #ffff;
+}
+
+.logo {
+    height: 30px;
+}
+
+.mid {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.right ul li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #ffff;
+}
+
+#banner {
+    justify-content: center;
+    text-align: center;
+    background-image: url('./images/banner.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #ffff;
+    font-weight: 500;
+}
+
+.banner-content {
+    padding: 150px 20px;
+}
+
+@media (max-width:769px) {
+    #banner {
+        background-image: url('./images/IMG_MOBILE_copy_1_780x.jpeg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.banner-content {
+    margin: 20px;
+}
+
+.shop-btn {
+    margin-top: 40px;
+    padding: 15px 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    background-color: black;
+    color: #ffff;
+    border: none;
+}
+
+.shop-btn:hover {
+    background-color: #180b09c2;
+}
+
+#favourite {
+    padding: 20px 20px;
+}
+
+.carousel-item img {
+    padding: 20px;
+}
+
+#electrolyte,
+#protein,
+#nature,
+#learn,
+#plant,
+#footer {
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px;
+}
+
+.read-btn {
+    background-color: #face93;
+    color: black;
+    font-weight: 500;
+    border: none;
+    padding: 15px 40px;
+}
+
+.read-btn:hover {
+    background-color: black;
+    color: #face93;
+}
+
+.content {
+    margin-top: 50%;
+    padding: 20px;
+}
+
+#health {
+    background-color: #f9f6ef;
+    padding: 0px 40px;
+}
+
+#health .content {
+    margin-top: 20%;
+}
+
+.more {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.more:hover {
+    color: #face93;
+}
+
+.plant-content {
+    background-color: #f2efec;
+}
+
+.plant-body {
+    padding: 50px 50px;
+    margin-top: 30%;
+}
+
+#journal {
+    padding: 100px 40px;
+    background-color: #f9f6ef;
+}
+
+#journal img {
+    height: 300px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.read-more {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid brown;
+    font-weight: 700;
+}
+
+.read-more:hover {
+    color: #face93;
+}
+
+#footer {
+    background-color: #000000;
+    color: #ffff;
+}
+
+#footer input {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid #ffff;
+    color: #ffff;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #ffffffac;
+}
+
+.join-btn {
+    padding: 20px 20px;
+    background-color: #face93;
+    width: 100%;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer .right ul li{
+    border-bottom: 1px solid #ffff;
+}
